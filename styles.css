@@ -127,13 +127,12 @@ body {
   transform: scale(1.05); 
 }
 
-/* Footer */
 footer {
   background-color: #4b8a6f;
   color: #fafafa;
   padding: 1rem 0;
   font-size: 0.95rem;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.4s ease; 
   text-align: center;
 }
 
