@@ -1,0 +1,72 @@
+/* Import a cozy, rounded font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* Base styles */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f4fef4;
+  color: #000000; /* Set font color to black */
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Testimonials Section */
+section.py-5 {
+  background-color: #e6f7e6; /* Soft green background */
+  padding: 5rem 0;
+}
+
+h1.text-center {
+  color: #2e4e3f; /* Dark green color for heading */
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+}
+
+/* Testimonial Cards */
+.card {
+  border-radius: 12px;
+  border: none;
+  background-color: #a8d5ba; /* Cozy green background */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Body */
+.card-body {
+  padding: 2rem;
+  color: #333;
+}
+
+/* Card Text */
+.card-text {
+  font-size: 1.1rem;
+  color: #2e4e3f; /* Dark green text */
+  font-style: italic;
+}
+
+/* Blockquote Footer */
+.blockquote-footer {
+  font-weight: 600;
+  color: #1c3d27; /* A slightly darker green */
+}
+
+.blockquote-footer cite {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive Design for Testimonials */
+@media (max-width: 767px) {
+  h1.text-center {
+    font-size: 2rem;
+  }
+  .card-body {
+    padding: 1.5rem;
+  }
+}

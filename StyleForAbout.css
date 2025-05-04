@@ -1,0 +1,125 @@
+/* Import a cozy, rounded font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* Base styles */
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f4fef4;
+  color: #374b3c;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #4b8a6f;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: #eafff2;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #c2f5ce;
+}
+
+/* Hero Section */
+.hero {
+  background: url('Pictures/About_cozyPics.jpg') center/cover no-repeat;
+  height: 65vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-style: italic;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.hero .btn {
+  background-color: #a3d9a5;
+  color: #2e4e3f;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  border: none;
+}
+
+.hero .btn:hover {
+  background-color: #90c89c;
+  color: #1e3529;
+}
+
+/* About Section */
+.section-about {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-about h2 {
+  font-size: 2.3rem;
+  color: #3f5c47;
+  margin-bottom: 2rem;
+}
+
+.section-about p {
+  font-size: 1.1rem;
+  color: #4e6c58;
+  margin-bottom: 1.5rem;
+}
+
+/* Image Styling */
+.section-about img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.btn {
+  background-color: #a3d9a5;
+  color: #2e4e3f;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #90c89c;
+  color: #1e3529;
+}
+
+/* Footer */
+footer {
+  background-color: #4b8a6f;
+  color: #eafff2;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+}
