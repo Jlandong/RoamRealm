@@ -1,7 +1,7 @@
-/* Import a cozy, rounded font */
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
-/* Base styles */
+
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #f4fef4;
@@ -12,7 +12,7 @@ body {
   font-style: italic;
 }
 
-/* Navbar */
+
 .navbar {
   background-color: #4b8a6f;
   padding: 1rem;
@@ -30,7 +30,7 @@ body {
   color: #c2f5ce;
 }
 
-/* Hero Section */
+
 .hero {
   background: url('Pictures/About_cozyPics.jpg') center/cover no-repeat;
   height: 65vh;
@@ -75,7 +75,7 @@ body {
   color: #1e3529;
 }
 
-/* About Section */
+
 .section-about {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -93,13 +93,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Image Styling */
+
 .section-about img {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Button */
+
 .btn {
   background-color: #a3d9a5;
   color: #2e4e3f;
@@ -108,7 +108,7 @@ body {
   border-radius: 25px;
   font-weight: 600;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease;
 }
 
 .btn:hover {
@@ -116,7 +116,7 @@ body {
   color: #1e3529;
 }
 
-/* Footer */
+
 footer {
   background-color: #4b8a6f;
   color: #eafff2;
