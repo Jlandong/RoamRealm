@@ -1,7 +1,5 @@
-/* Import a cozy, rounded font */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
 
-/* Base styles */
 body {
   font-family: 'Quicksand', sans-serif;
   background-color: #f4fef4;
@@ -10,15 +8,14 @@ body {
   margin: 0;
   padding: 0;
   font-style: italic;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for background and text color */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
-/* Navbar */
 .navbar {
   background-color: #4b8a6f;
   padding: 1rem;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease; /* Added transition for background color */
+  transition: background-color 0.3s ease; 
 }
 .navbar-custom {
   background-color: #4b8a6f;
@@ -28,7 +25,7 @@ body {
 .navbar .nav-link {
   color: #eafff2;
   font-weight: 500;
-  transition: color 0.3s ease; /* Added transition for link color */
+  transition: color 0.3s ease; 
 }
 
 .navbar .nav-link:hover,
@@ -36,7 +33,6 @@ body {
   color: #c2f5ce;
 }
 
-/* Hero Section */
 .hero {
   height: 65vh;
   position: relative;
@@ -44,7 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  transition: background 0.3s ease; /* Added transition for background */
+  transition: background 0.3s ease; 
 }
 
 .hero .overlay {
@@ -52,19 +48,19 @@ body {
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
-  transition: background-color 0.3s ease; /* Added transition for overlay background */
+  transition: background-color 0.3s ease; 
 }
 
 .hero h1 {
   font-size: 3rem;
   font-weight: 700;
-  transition: font-size 0.3s ease; /* Added transition for font-size */
+  transition: font-size 0.3s ease; 
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-top: 1rem;
-  transition: font-size 0.3s ease; /* Added transition for font-size */
+  transition: font-size 0.3s ease; 
 }
 
 .hero .btn {
@@ -76,16 +72,15 @@ body {
   margin-top: 1.5rem;
   text-decoration: none;
   border: none;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for button color and scale */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .hero .btn:hover {
   background-color: #90c89c;
   color: #1e3529;
-  transform: scale(1.05); /* Added scale effect for hover */
+  transform: scale(1.05); 
 }
 
-/* About Section */
 .section-about {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -95,28 +90,26 @@ body {
   font-size: 2.3rem;
   color: #3f5c47;
   margin-bottom: 2rem;
-  transition: color 0.3s ease; /* Added transition for heading color */
+  transition: color 0.3s ease;
 }
 
 .section-about p {
   font-size: 1.1rem;
   color: #4e6c58;
   margin-bottom: 1.5rem;
-  transition: color 0.3s ease; /* Added transition for paragraph color */
+  transition: color 0.3s ease; 
 }
 
-/* Image Styling */
 .section-about img {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; /* Added transition for image scaling */
+  transition: transform 0.3s ease; 
 }
 
 .section-about img:hover {
-  transform: scale(1.05); /* Image scale effect on hover */
+  transform: scale(1.05); 
 }
 
-/* Button */
 .btn {
   background-color: #a3d9a5;
   color: #2e4e3f;
@@ -125,24 +118,26 @@ body {
   border-radius: 25px;
   font-weight: 600;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for button color and scale */
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .btn:hover {
   background-color: #90c89c;
-  color: #1e3529;
-  transform: scale(1.05); /* Added scale effect for hover */
+  color: #84cc94;
+  transform: scale(1.05); 
 }
 
 /* Footer */
 footer {
   background-color: #4b8a6f;
-  color: #eafff2;
+  color: #fafafa;
   padding: 1rem 0;
   font-size: 0.95rem;
-  transition: background-color 0.3s ease; /* Added transition for footer background */
+  transition: background-color 0.3s ease; 
+  text-align: center;
 }
 
 footer:hover {
-  background-color: #3b6f56; /* Added background color change on hover */
+  background-color: #84cc94; /* Added background color change on hover */
 }
+
